@@ -9,15 +9,15 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fluentui/react-spinbutton": "^9.2.50",
     "@mui/icons-material": "^5.14.15",
-    "@mui/material": "^5.14.15",
+    "@mui/material": "^5.14.18",
     "@mui/x-date-pickers": "^6.17.0",
     "dayjs": "^1.11.10",
     "firebase": "^10.6.0",
